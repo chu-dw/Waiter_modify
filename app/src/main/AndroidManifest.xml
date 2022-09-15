@@ -41,7 +41,7 @@
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="af7b4bb03023e9942c024df8f5debdcf" />
+            android:value=" " />
 
     </application>
 
