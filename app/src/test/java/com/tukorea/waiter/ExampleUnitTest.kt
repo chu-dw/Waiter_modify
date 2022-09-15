@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.tukorea.waiter
 
 import org.junit.Test
 
