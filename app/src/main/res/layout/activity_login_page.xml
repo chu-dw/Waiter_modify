@@ -56,7 +56,7 @@
         android:layout_marginLeft="40dp"
         />
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/userpassword"
         android:layout_width="335dp"
         android:layout_height="wrap_content"
         android:theme="@style/EditTextStyle"
