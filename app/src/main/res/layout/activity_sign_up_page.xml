@@ -72,6 +72,7 @@
                         android:layout_marginTop="10dp"
                         android:id="@+id/customer"
                         android:text="고객"
+                        android:textColor="#555555"
                         android:fontFamily="@font/godom"
                         />
 
@@ -80,6 +81,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/owner"
                         android:text="사업자"
+                        android:textColor="#555555"
                         android:fontFamily="@font/godom"
                         />
 
