@@ -23,7 +23,11 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
+<<<<<<< HEAD
+        manifestPlaceholders = [API_KEY: API_KEY]
+=======
         buildConfigField "String", "KAKAO_API_KEY", properties['KAKAO_API_KEY']
+>>>>>>> origin/develop
     }
 
     buildTypes {

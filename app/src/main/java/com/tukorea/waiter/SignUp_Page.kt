@@ -54,7 +54,7 @@ class SignUp_Page : AppCompatActivity() {
                         val userinfo = hashMapOf(
                             "signName" to binding.signName.text.toString(),
                             "phoneNum" to binding.signnumber.text.toString(),
-                            "type" to "owner"
+                            "type" to "type"
                         )
 
                         val useruid = Firebase.auth.currentUser?.uid //회원가입한 회원 uid
@@ -65,7 +65,11 @@ class SignUp_Page : AppCompatActivity() {
                                .set(userinfo)
 
                             //유저 타입 user로 (default값 owner)
-                            db.collection("user")
+                            db.collection("login")
+                                .document("${useruid}")
+                                .set(userinfo)
+
+                            db.collection("login")
                                 .document("${useruid}")
                                 .update("type","user")
 
@@ -81,13 +85,25 @@ class SignUp_Page : AppCompatActivity() {
                                 .document("${useruid}")
                                 .set(userinfo)
 
-                            db.collection("owner")
-                                .document("${useruid}").collection("x_y")
-                                .document("storeName")
+//                            db.collection("owner")
+//                                .document("${useruid}").collection("x_y")
+//                                .document("storeName").set("blank")
+//
+//                            db.collection("owner")
+//                                .document("${useruid}").collection("x_y")
+//                                .document("storeName").collection("reservation_list")
+//
+//                            db.collection("login")
+//                                .document("${useruid}")
+//                                .set(userinfo)
+//
+//                            db.collection("login")
+//                                .document("${useruid}")
+//                                .update("type","owner")
 
-                            db.collection("owner")
-                                .document("${useruid}").collection("x_y")
-                                .document("storeName").collection("reservation_list")
+                            db.collection("login")
+                                .document("${useruid}")
+                                .update("type","owner")
                         }
 
 
