@@ -21,6 +21,9 @@
         android:networkSecurityConfig="@xml/network_security_config"
         >
         <activity
+            android:name=".RestInfo_registration"
+            android:exported="false" />
+        <activity
             android:name=".StoreList_page"
             android:exported="false" />
         <activity
@@ -42,10 +45,11 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
+            android:value="af7b4bb03023e9942c024df8f5debdcf" />
             android:value=" " />
 
     </application>

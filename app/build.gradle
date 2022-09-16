@@ -4,6 +4,9 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
 android {
     compileSdk 32
 
@@ -19,6 +22,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "KAKAO_API_KEY", properties['KAKAO_API_KEY']
     }
 
     buildTypes {
@@ -27,6 +32,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -54,4 +60,7 @@ dependencies {
     //map api
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation files('libs/libDaumMapAndroid.jar')
+    // 검색 api
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 }
