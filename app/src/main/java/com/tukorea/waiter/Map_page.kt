@@ -17,8 +17,10 @@ class Map_page : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        val mapView = MapView(this)
-        binding.clKakaoMapView.addView(mapView)
+        val map = MapView(this)
+        binding.mapView.addView(map)
+//        val mapView = MapView(this)
+//        binding.clKakaoMapView.addView(mapView)
 
     }
 }
