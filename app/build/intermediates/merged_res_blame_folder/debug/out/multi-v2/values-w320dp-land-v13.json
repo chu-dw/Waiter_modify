@@ -4,7 +4,7 @@
             "outputFile": "com.tukorea.waiter.app-mergeDebugResources-29:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ehddn\\.gradle\\caches\\transforms-3\\d5947dccf361603c4cb357b580fdd2a2\\transformed\\material-1.6.1\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "/Users/chynmn/.gradle/caches/transforms-3/d5947dccf361603c4cb357b580fdd2a2/transformed/material-1.6.1/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

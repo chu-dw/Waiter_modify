@@ -1289,6 +1289,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_waiter_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2514,6 +2515,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable layout_border
 drawable logo
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2927,6 +2929,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registMap
+id registrationBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2944,6 +2948,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id searchAddress
 id search_badge
 id search_bar
 id search_button
@@ -3005,6 +3010,8 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id storeAddress
+id storeCorpNumEdit
 id stretch
 id submenuarrow
 id submit_area
@@ -3180,6 +3187,7 @@ layout abc_tooltip
 layout activity_login_page
 layout activity_main
 layout activity_map_page
+layout activity_rest_info_registration
 layout activity_sign_up_page
 layout activity_store_list_page
 layout browser_actions_context_menu_page
@@ -3278,6 +3286,9 @@ menu example_menu
 menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_launcher_waiter
+mipmap ic_launcher_waiter_foreground
+mipmap ic_launcher_waiter_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
 string abc_action_bar_home_description
@@ -4039,6 +4050,7 @@ style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
 style Theme_MyApplication
+style Theme_Waiter
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

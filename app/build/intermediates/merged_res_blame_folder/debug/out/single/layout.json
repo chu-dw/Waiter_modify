@@ -1,26 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-mergeDebugResources-30:\\layout\\activity_map_page.xml",
-        "source": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-main-33:\\layout\\activity_map_page.xml"
+        "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_store_list_page.xml",
+        "source": "com.tukorea.waiter.app-main-33:/layout/activity_store_list_page.xml"
     },
     {
         "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_map_page.xml",
         "source": "com.tukorea.waiter.app-main-33:/layout/activity_map_page.xml"
     },
     {
-        "merged": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-mergeDebugResources-30:\\layout\\activity_store_list_page.xml",
-        "source": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-main-33:\\layout\\activity_store_list_page.xml"
+        "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_sign_up_page.xml",
+        "source": "com.tukorea.waiter.app-main-33:/layout/activity_sign_up_page.xml"
     },
     {
-        "merged": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-mergeDebugResources-30:\\layout\\activity_login_page.xml",
-        "source": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-main-33:\\layout\\activity_login_page.xml"
+        "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_login_page.xml",
+        "source": "com.tukorea.waiter.app-main-33:/layout/activity_login_page.xml"
     },
     {
-        "merged": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-mergeDebugResources-30:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-main-33:\\layout\\activity_main.xml"
+        "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_rest_info_registration.xml",
+        "source": "com.tukorea.waiter.app-main-33:/layout/activity_rest_info_registration.xml"
     },
     {
-        "merged": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-mergeDebugResources-30:\\layout\\activity_sign_up_page.xml",
-        "source": "C:\\Users\\ehddn\\.gradle\\daemon\\7.3.3\\com.tukorea.waiter.app-main-33:\\layout\\activity_sign_up_page.xml"
+        "merged": "com.tukorea.waiter.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.tukorea.waiter.app-main-33:/layout/activity_main.xml"
     }
 ]

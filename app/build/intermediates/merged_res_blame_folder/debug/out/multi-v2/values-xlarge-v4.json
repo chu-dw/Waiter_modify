@@ -4,7 +4,7 @@
             "outputFile": "com.tukorea.waiter.app-mergeDebugResources-29:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ehddn\\.gradle\\caches\\transforms-3\\c050a1d0d07d79f3431ace22db2a2a7a\\transformed\\appcompat-1.4.2\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "/Users/chynmn/.gradle/caches/transforms-3/c050a1d0d07d79f3431ace22db2a2a7a/transformed/appcompat-1.4.2/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

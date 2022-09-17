@@ -4,7 +4,7 @@
             "outputFile": "com.tukorea.waiter.app-mergeDebugResources-29:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ehddn\\.gradle\\caches\\transforms-3\\c050a1d0d07d79f3431ace22db2a2a7a\\transformed\\appcompat-1.4.2\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/chynmn/.gradle/caches/transforms-3/c050a1d0d07d79f3431ace22db2a2a7a/transformed/appcompat-1.4.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ehddn\\.gradle\\caches\\transforms-3\\5a18192997fdee315264a24d192860d0\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/chynmn/.gradle/caches/transforms-3/5a18192997fdee315264a24d192860d0/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ehddn\\.gradle\\caches\\transforms-3\\d5947dccf361603c4cb357b580fdd2a2\\transformed\\material-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/chynmn/.gradle/caches/transforms-3/d5947dccf361603c4cb357b580fdd2a2/transformed/material-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,8,13,17,20,23,26,31,34,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
