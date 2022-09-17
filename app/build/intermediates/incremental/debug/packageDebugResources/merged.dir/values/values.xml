@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_waiter_background">#FDFDFE</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">My Application</string>
+    <string name="default_web_client_id" translatable="false">241593658059-a613e9grmm30gilm8kmu9hnpmqjvkhhs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">241593658059</string>
+    <string name="google_api_key" translatable="false">AIzaSyDFvg8wZkYCq8utu4PU0zpbTMUVnP4WWdA</string>
+    <string name="google_app_id" translatable="false">1:241593658059:android:c83049b2fd65f04bd1c94e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDFvg8wZkYCq8utu4PU0zpbTMUVnP4WWdA</string>
+    <string name="google_storage_bucket" translatable="false">waiter-modify.appspot.com</string>
+    <string name="project_id" translatable="false">waiter-modify</string>
+    <style name="EditTextStyle" parent="Theme.AppCompat.Light.NoActionBar">  
+        <item name="colorControlNormal">#B22222</item> 
+        <item name="colorControlActivated">#AA2233</item> 
+        <item name="android:editTextColor">#000000</item>  
+        <item name="android:textColorHighlight">#03A9F4</item> 
+        <item name="android:textColorHint">#555555</item>   
+    </style>
+    <style name="Theme.Waiter" parent="Theme.AppCompat.Light">
+        
+        <item name="colorPrimary">#FF1493</item>
+        <item name="colorPrimaryVariant">#00000000</item>
+        <item name="colorOnPrimary">#FF1493</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">#FF1493</item>
+        
+    </style>
+</resources>
