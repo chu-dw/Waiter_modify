@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:text="User ID"
         android:textSize="15dp"
+        android:textColor="#555555"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="40dp"
         />
@@ -52,6 +53,7 @@
         android:layout_height="wrap_content"
         android:text="PASSWORD"
         android:textSize="15dp"
+        android:textColor="#555555"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
         />
@@ -82,6 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGN UP FOR AN ACCOUNT"
+        android:textColor="#555555"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         />

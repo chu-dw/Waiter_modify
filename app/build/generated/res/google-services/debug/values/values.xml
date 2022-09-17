@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">241593658059-a613e9grmm30gilm8kmu9hnpmqjvkhhs.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">241593658059</string>
+    <string name="google_api_key" translatable="false">AIzaSyDFvg8wZkYCq8utu4PU0zpbTMUVnP4WWdA</string>
+    <string name="google_app_id" translatable="false">1:241593658059:android:c83049b2fd65f04bd1c94e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDFvg8wZkYCq8utu4PU0zpbTMUVnP4WWdA</string>
+    <string name="google_storage_bucket" translatable="false">waiter-modify.appspot.com</string>
+    <string name="project_id" translatable="false">waiter-modify</string>
+</resources>
