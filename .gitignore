@@ -32,6 +32,7 @@ local.properties
 # Package Files #
 *.jar
 !libDaumMapAndroid.jar
+
 *.war
 *.nar
 *.ear
